@@ -26,9 +26,11 @@ var pokemonRepository = (function () {
       var pokemonList = $(".pokemon-list");
       var listItem = $("<li></li>");
       var button = $(
-        "<button type='button' class='btn btn-danger button-class' data-toggle='modal' data-target='#exampleModal'>" +
+        "<div class='col-1'></div>" +
+          "<button type='button' class='btn btn-danger button-class col-10' data-toggle='modal' data-target='#exampleModal'>" +
           capitalize(pokemon.name) +
-          "</button>"
+          "</button>" +
+          "<div class='col-1'></div>"
       );
 
       //append children to corresponding element

@@ -1,0 +1,60 @@
+html {
+    font-family: Montserrat, sans-serif
+}
+
+.navbar {
+    background-color: #e5f8ff;
+    font-family: Montserrat, sans-serif
+}
+
+.navbar a:hover {
+    font-weight: 700
+}
+
+.main-logo__item {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 80%;
+    height: auto
+}
+
+#myDiv {
+    padding: 0
+}
+
+.button-class {
+    background-color: #b90e0a;
+    display: block;
+    border: none;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none
+}
+
+.pokemon-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0
+}
+
+.modal-image {
+    width: 200px;
+    height: auto;
+    text-align: center
+}
+
+.modal-dialog {
+    font-family: Montserrat, sans-serif;
+    text-align: center
+}

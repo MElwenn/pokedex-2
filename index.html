@@ -11,8 +11,7 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
             rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-
+        <link rel="stylesheet" type="text/css" href="dist/css/styles.min.css">
         <link rel="shortcut icon" href="img/pokeball-icon.ico">
         <title>PokeDex</title>
 
@@ -26,7 +25,7 @@
                     class="navbar-brand"
                     href="https://www.pokemoncenter.com/"
                     target="_blank">
-                    <img src="img/pokedex.png" width="120px" height="auto"
+                    <img src="img/pokedex.png" width="auto" height="50px"
                         alt=""
                         /></a>
 
@@ -79,8 +78,7 @@
         </div>
 
         <header class="main-logo" id="main-logo">
-            <img class="main-logo__item" src="img/pokemon.png" width="300px"
-                height="auto">
+            <img class="main-logo__item" src="img/pokemon1.png">
         </header>
 
         <!-- Modal -->
@@ -112,13 +110,12 @@
         <!--Pokemon buttons-->
         <div class="container">
             <div class="row">
-                <div class="col"></div>
                 <div
-                    class="pokeText col col-md-9 list-group list-group-flush"
+                    class="pokeText list-group list-group-flush"
                     id="myDiv">
-                    <ul class="list-unstyled pokemon-list col"></ul>
+                    <ul class="list-unstyled pokemon-list d-flex flex-wrap
+                        justify-content-center"></ul>
                 </div>
-                <div class="col"></div>
             </div>
         </div>
 
@@ -134,6 +131,6 @@
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
+        <script src="dist/js/script.min.js"></script>
     </body>
 </html>
